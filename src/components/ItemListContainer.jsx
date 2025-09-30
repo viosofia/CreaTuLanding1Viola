@@ -1,16 +1,23 @@
 function ItemListContainer({ greeting }) {
     return (
-        <section style={styles.container}>
+        <div style={{ 
+        ...styles.container, 
+        backgroundColor: "#ffffff", 
+        color: "#000000", 
+        minHeight: "80vh",
+        padding: "20px"
+        }}>
         <h2>{greeting}</h2>
-        </section>
-    )
+        </div>
+    );
 }
 
-export default ItemListContainer
+export default ItemListContainer;
 
 const styles = {
     container: {
-        padding: "20px",
-        textAlign: "center"
-    }
-}
+        marginTop: "40px",
+        textAlign: "center",
+        fontSize: "1.5em",
+    },
+};
