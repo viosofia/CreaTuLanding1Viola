@@ -1,0 +1,40 @@
+.nav-menu {
+  background-color: #000000; /* box negro */
+  color: #ffffff;           /* letras blancas */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  width: 100%;
+}
+
+.nav-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.nav-links li:hover {
+    text-decoration: underline;
+}
+
+.nav-cart {
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

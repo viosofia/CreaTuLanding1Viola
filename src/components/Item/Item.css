@@ -1,0 +1,10 @@
+.item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+}
+.item img {
+    width: 100%;
+}

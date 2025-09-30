@@ -1,0 +1,8 @@
+.item-detail {
+    padding: 20px;
+    text-align: center;
+}
+.item-detail img {
+    max-width: 400px;
+    border-radius: 8px;
+}
